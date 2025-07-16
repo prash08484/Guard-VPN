@@ -1,12 +1,11 @@
-# Web-Based VPN Service
+# Guard-VPN
 
-A secure and reliable web-based Virtual Private Network (VPN) service for encrypted internet browsing and privacy protection accessible through any modern web browser.
+Web-based VPN service with browser-native encryption and global server network.
 
 ## 📋 Table of Contents
 
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
-- [Cost Breakdown](#cost-breakdown)
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -110,89 +109,6 @@ This web-based VPN service provides secure, encrypted connections through a mode
 - **Web Application Firewall (WAF)** - Cloudflare security
 - **OWASP ZAP** - Security testing
 
-## 💰 Cost Breakdown
-
-### 🆓 **Completely Free Options**
-
-#### Development & Tools
-- **Next.js, React, TypeScript** - Open source frameworks
-- **Node.js, Express.js** - Free runtime and framework
-- **PostgreSQL** - Open source database
-- **Redis** - Open source caching (self-hosted)
-- **Git & GitHub** - Free version control (public repos)
-- **VS Code** - Free code editor
-- **Docker** - Free containerization
-- **Let's Encrypt** - Free SSL certificates
-
-#### Free Tier Hosting (Perfect for Testing)
-- **Vercel** - Free tier: Unlimited deployments, 100GB bandwidth/month
-- **Railway** - Free tier: $5 credit monthly, good for small projects
-- **Heroku** - Free tier discontinued, but alternatives exist
-- **Netlify** - Free tier: 100GB bandwidth, 300 build minutes
-- **Supabase** - Free tier: 500MB database, 50MB file storage
-- **PlanetScale** - Free tier: 1 database, 1GB storage
-- **Cloudflare** - Free tier: Basic CDN, DDoS protection, SSL
-
-### 💵 **Paid Services (Optional but Recommended)**
-
-#### Hosting & Infrastructure ($5-50/month)
-- **Vercel Pro** - $20/month (better performance, analytics)
-- **Railway Pro** - $5-20/month (more resources)
-- **DigitalOcean Droplets** - $6-12/month (VPN servers)
-- **AWS/GCP/Azure** - $10-100/month (depending on usage)
-
-#### Domain & Security ($10-50/year)
-- **Domain Name** - $10-15/year (.com domain)
-- **Cloudflare Pro** - $20/month (advanced security features)
-- **Auth0** - $23/month (advanced authentication features)
-
-#### VPN Infrastructure ($20-200/month)
-- **VPN Server Hosting** - $5-20/month per server location
-- **Global Server Network** - $50-200/month (multiple locations)
-- **Bandwidth Costs** - $0.05-0.10 per GB (varies by provider)
-
-### 🎯 **Recommended Starting Budget**
-
-#### **Free Development Setup** ($0/month)
-```
-✅ Vercel (Free tier)
-✅ Supabase (Free tier)  
-✅ Cloudflare (Free tier)
-✅ GitHub (Public repos)
-✅ One VPN server on DigitalOcean ($6/month)
-Total: $6/month
-```
-
-#### **Production Setup** ($30-80/month)
-```
-• Vercel Pro: $20/month
-• Domain: $12/year ($1/month)
-• 3-5 VPN servers: $30-50/month
-• Cloudflare Pro: $20/month (optional)
-Total: $51-91/month
-```
-
-### 🛠️ **Cost-Saving Strategies**
-
-#### Use Free Alternatives
-- **Supabase** instead of Auth0 (free tier)
-- **PlanetScale** instead of AWS RDS (free tier)
-- **Netlify/Vercel** instead of AWS hosting (free tier)
-- **GitHub Actions** instead of paid CI/CD (free for public repos)
-
-#### Self-Hosting Options
-- **VPS Hosting** - $5-10/month (DigitalOcean, Linode, Vultr)
-- **Docker Containers** - Run multiple services on one server
-- **PostgreSQL + Redis** - Self-host on same VPS
-
-#### Gradual Scaling
-```
-Phase 1: Development (Free) - $0-6/month
-Phase 2: MVP Launch - $20-40/month  
-Phase 3: Growth - $50-100/month
-Phase 4: Scale - $100+/month
-```
-
 ## 🏗️ Architecture
 
 ```
@@ -239,8 +155,8 @@ Phase 4: Scale - $100+/month
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/web-vpn.git
-cd web-vpn
+git clone https://github.com/prash08484/Guard-VPN.git
+cd Guard-VPN
 ```
 
 ### 2. Environment Setup
@@ -388,7 +304,7 @@ DELETE /api/connections/:id - Disconnect VPN
 
 ### Project Structure
 ```
-web-vpn/
+guard-vpn/
 ├── src/                    # Next.js frontend
 │   ├── components/         # React components
 │   │   ├── dashboard/
@@ -535,8 +451,8 @@ railway up
 npm run build
 
 # Deploy with Docker
-docker build -t web-vpn .
-docker run -p 3000:3000 web-vpn
+docker build -t guard-vpn .
+docker run -p 3000:3000 guard-vpn
 
 # Deploy to cloud with Terraform
 cd infrastructure
@@ -576,10 +492,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Documentation**: [Wiki](https://github.com/yourusername/vpn-app/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/vpn-app/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/vpn-app/discussions)
-- **Email**: support@vpnapp.com
+- **Documentation**: [Wiki](https://github.com/prash08484/Guard-VPN/wiki)
+- **Issues**: [GitHub Issues](https://github.com/prash08484/Guard-VPN/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/prash08484/Guard-VPN/discussions)
+- **Email**: support@guardvpn.com
 
 ## 🙏 Acknowledgments
 
@@ -590,5 +506,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **⚠️ Disclaimer**: This web-based VPN service is for educational and legitimate privacy purposes only. Users are responsible for complying with applicable laws and regulations. Browser-based VPN solutions may have limitations compared to native VPN clients.
-#   G u a r d - V P N  
- 
