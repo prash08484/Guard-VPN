@@ -590,5 +590,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **⚠️ Disclaimer**: This web-based VPN service is for educational and legitimate privacy purposes only. Users are responsible for complying with applicable laws and regulations. Browser-based VPN solutions may have limitations compared to native VPN clients.
-#   G u a r d - V P N  
+#   G u a r d - V P N 
+ 
  
