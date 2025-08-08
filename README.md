@@ -1,4 +1,4 @@
-📂 Phase 1: Golang WireGuard Backend Scaffold
+### 📂 Phase 1: Golang WireGuard Backend Scaffold
 
 guard-vpn/
 └── core-vpn-engine/
