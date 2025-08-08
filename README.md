@@ -1,6 +1,7 @@
 ### 📂 Phase 1: Golang WireGuard Backend Scaffold
 
-guard-vpn/
+```plaintext
+nextgen-vpn-platform/
 └── core-vpn-engine/
     ├── cmd/
     │   ├── vpn-server/
@@ -53,4 +54,3 @@ guard-vpn/
     │   └── client_test.go           # Test client connection
     │
     └── Makefile                     # Build & run shortcuts
-
