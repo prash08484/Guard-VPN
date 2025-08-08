@@ -54,3 +54,12 @@ nextgen-vpn-platform/
     │   └── client_test.go           # Test client connection
     │
     └── Makefile                     # Build & run shortcuts
+
+
+Since VPN connections require native OS integration (to create TUN interfaces), our approach will be:
+
+Backend (Golang) → Provides REST API for auth, server list, and WireGuard config.
+
+Mobile App (React Native) → Uses native module to start WireGuard tunnel.
+
+Desktop App (Electron + Go helper) → Uses local Go binary to control VPN.
