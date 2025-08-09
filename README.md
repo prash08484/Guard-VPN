@@ -116,7 +116,7 @@ iOS → Use NetworkExtension API with NEPacketTunnelProvider
 
 ### 4️⃣ Web App (Optional Control Panel)
 ```
-For Phase 1, web app is only for:
+For Phase 1, web app is only for::
 
 Account management
 
